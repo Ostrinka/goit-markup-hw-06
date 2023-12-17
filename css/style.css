@@ -1059,7 +1059,6 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
   gap: 24px;
   align-items: baseline;
   width: 584px;
-  /* padding-left: 108px; */
 }
 
 .footer-link {
