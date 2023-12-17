@@ -1058,7 +1058,8 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
   flex-wrap: wrap;
   gap: 24px;
   align-items: baseline;
-  padding-left: 108px;
+  width: 584px;
+  /* padding-left: 108px; */
 }
 
 .footer-link {
@@ -1168,6 +1169,11 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1158px) {
 
 /* ---Desctop Section Benefits--- */
 
+.section-benefits {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .benefits-card {
   display: flex;
   justify-content: center;
@@ -1221,6 +1227,11 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1158px) {
 
 /* ---Desktop Our Portfolio--- */
 
+.section-portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .portfolio-card {
   position: relative;
   overflow: hidden;
@@ -1268,12 +1279,14 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1158px) {
 
 .container-footer-all {
   display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
   align-items: baseline;
   justify-content: center;
+  width: 1158px;
   gap: 0;
   padding: 100px 0;
   height: 312px;
-  
 }
 
 .footer-container {
